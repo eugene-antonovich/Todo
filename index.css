@@ -1,0 +1,168 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 15px;
+    position: relative;
+}
+
+.main-container {
+    border: 2px solid rgba(216, 216, 216, 0.79);
+    width: 60%;
+    margin: 30px auto;
+}
+.header {
+    padding: 40px 0px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(216, 216, 216, 0.79);
+}
+
+.header-wrap {
+    width: 900px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-deleted-btn,
+.header-add-btn {
+    width: 180px;
+    height: 55px;
+    font-size: 22px;
+    border-radius: 15px;
+    border: none;
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+.header-input {
+    width: 40%;
+    font-size: 24px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 2px solid  rgb(204, 204, 204);
+    border-radius: 40px;
+    padding-left: 20px  ;
+
+}
+
+::placeholder {
+    color: rgb(204, 204, 204);
+}
+
+.card-section {
+    padding: 40px 0px;
+    background-color: rgb(255, 255, 255);
+}
+
+.card-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.card {
+    border: 3px solid white;
+    margin: 20px 0px;
+    padding: 50px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-color:  rgba(216, 216, 216, 0.79);
+}
+
+.card-active {
+    background-color:  rgba(105, 105, 105, 0.375);
+}
+
+.card-description-active {
+    text-decoration: line-through;
+}
+
+.card-btn-content {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    width: 579px;
+    justify-content: space-between;
+}
+
+.card-description {
+    text-align: center;
+    background-color: white;
+    border: 3px solid white;
+    padding: 20px 50px;
+    border-radius: 10px;
+    color: black;
+    width: 579px;
+    margin: auto;
+    font-size: 24px;
+}
+
+.card-accept-btn,
+.card-cancel-btn {
+    width: 150px;
+    height: 55px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    font-size: 26px;
+    border: 1px solid grey;
+}
+
+.card-cancel-btn {
+    background-color: rgba(255, 93, 93, 0.702);
+}
+
+.card-accept-btn {
+    background-color: rgba(5, 255, 5, 0.309);
+}
+
+.card-accept-btn-active {
+    background-color: rgb(0, 201, 0);
+}
+
+.not-active {
+    display: none;
+}
+.active {
+    display: block;
+}
+
+.card-accept-btn:hover {
+    background-color: rgba(5, 255, 5, 0.619);
+} 
+
+.card-cancel-btn:hover {
+    background-color: rgb(255, 93, 93);
+}
+
+
+.card-date-btn {
+    width: 100px;
+    height: 55px;
+    border-radius: 15px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.card-accept-btn:hover,
+.card-cancel-btn:hover,
+.card-date-btn:hover,
+.header-deleted-btn:hover,
+.header-add-btn:hover {
+    cursor: pointer;
+}
